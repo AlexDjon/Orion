@@ -1,0 +1,64 @@
+/* Aprendendo Flexbox e Desenvolvendo uma página */
+.container {
+   background-color: #ccc;
+   height: 500px;
+   display: flex;
+
+   flex-direction: row;
+   /* column / row-reverse / column-reverse / row */
+
+   flex-wrap: wrap;
+   /* quebra de linha - wrap / nowrap */
+
+   /* flex-flow: row wrap; */
+   /* definir o direction e o wrap de uma vez */
+
+   justify-content: center;
+   /* 
+      alinhamento horizontal
+      flex-start: lado inicial, flex-end: lado contrário, center: meio
+      space: between (o máximo possivel), around (todos com o mesmo)
+   */
+
+   align-items: stretch;
+   /*
+      stretch: padrão (todos iguais)
+      flex-start: todos no inicio
+      flex-end: todos no final
+      center: centro
+      baseline: alinhamento baseado no conteudo de cada item
+   */
+
+   /* align-content: flex-start; */
+   /* 
+      alinhamento vertical (se tiver quebra de linha)
+      flex-start: todos no inicio
+      flex-end: todos no final
+      center: centro
+      space: espaçamento - between (o máximo possivel), around (todos com o mesmo)
+      stretch: juntar todos items para ocupar todo espaço
+   */
+
+}
+.item {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   margin: 5px;
+   height: 30px;
+
+   /* flex-grow: 1;
+   flex-basis: 300px; /* largura inicial 
+   flex-shrink: 1; /* diminui o tamanho de acordo com a largura */
+   flex: 10 1 300px;
+   /* grow / shrink / basis */
+}
+
+.article-01 { flex-shrink: 3; }
+.article-02 {}
+.article-03 {}
+.article-04 {}
+
+/*
+   align-self: (só funciona sem o align-content) alinhar o elemento conforme o flex-direction
+*/
