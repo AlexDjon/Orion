@@ -160,6 +160,12 @@ header li a {
    .infos .grid li.large { height: 200px; flex-basis: 90%; }
    .infos .separador {width: 280px;}
 }
+@media (min-width: 1800px) {
+   .infos .grid { margin-top: 80px; }
+   .infos .grid li { height: 600px; }
+   .infos .grid li.small { flex-basis: 22%; } 
+   .infos .grid li.large { flex-basis: 50%; }
+}
 
 /*- Histórias -*/
 .historias {
@@ -197,9 +203,13 @@ header li a {
 .historias .grid li {
    width: 45%;
    margin: 35px 0;
+   display: flex;
    text-align: center;
+   flex-flow: row wrap;
+   justify-content: center;
 }
 .historias .grid li i {
+   width: 100%;
    color: #1EA29B;
    font-size: 50px;
    margin-bottom: 30px;
