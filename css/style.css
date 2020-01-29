@@ -136,7 +136,7 @@ header li a {
 }
 .infos .grid li {
    height: 420px;
-   border: solid 4px #5A25A4;
+   border: solid 2px #5A25A4;
    border-radius: 4px;
    opacity: 0.9;
    background-clip: content-box;
