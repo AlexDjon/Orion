@@ -11,28 +11,30 @@
    <link rel="stylesheet" href="css/default.css">
    <link rel="stylesheet" href="css/style.css">
    <script src="https://kit.fontawesome.com/1161846f0b.js" crossorigin="anonymous"></script>
-   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">   
+   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>  
+   <script src='js/script.js'></script>
 </head>
 <body>
    <header>
       <a href=""><img src="images/icon.png" alt="Orion"></a>
       <nav>
-         <li><a href="#infos">Informações</a></li>
-         <li><a href="">Previsões</a></li>
+         <li><a href="#infos">Onde fica?</a></li>
+         <li><a href="#historias">Histórias</a></li>
          <li><a href="">Autor</a></li>
       </nav>
    </header>
 
    <section class="hero">
 
-      <h1>Constelação de Orion</h1>
+      <h1>Constelação de Órion</h1>
       <h3>"Tão longe mas tão presente em nossa história"</h3>
       <!-- <a href="" class="btn">GitHub</a> -->
    </section>
    
    <section class="infos" id="infos">
       <hr class="colors">
-      <h3>Onde fica Orion?</h3>
+      <h3>Onde fica Órion?</h3>
       <p>Está localizada no equador celeste e, por este motivo, é visível em<br>
           praticamente todas as regiões habitadas da Terra. <br>
          A época mais favorável para sua observação se dá principalmente nas<br>
@@ -45,6 +47,49 @@
          <li class="large" style="background-image: url('images/center.jpg');"></li>
          <li class="small" style="background-image: url('images/right.jpg');"></li>
       </ul>
+   </section>
+
+   <section class="historias" id="historias">
+      <!-- <hr class="colors"> -->
+      <h3>O que sabemos sobre Órion?</h3>
+      <p>No passado era presente em mitologias, no dias atuais é possível ver 
+         ela em todo seu esplendor atráves do Telescópio Espacial
+         <a href="https://pt.wikipedia.org/wiki/Telescópio_espacial_Hubble" target="_blank">Hubble</a>.<br>
+         A baixo veja algumas previsões e detalhes que eu encontrei sobre essa constelação incrível!
+      </p>
+      <hr>
+      <ul class='grid'>
+         <li>
+            <i class="fas fa-star-half-alt"></i>
+            <h4> A constelação </h4>
+            <p>Órion é uma das oitenta e oito constelações modernas, e também uma das mais facilmente reconhecíveis pela quantidade de estrelas brilhantes presentes e a presença de asterismos facilmente distinguíveis.<br>
+               A gigante azul Rígel e a gigante vermelha Betelgeuse apresentam maior brilho e, juntamente com Bellatrix e Saiph compõem o quadrilátero principal.<br>
+               Em seu centro figuram Alnitak, Alnilam e Mintaka, três estrelas de brilho similar alinhadas que constituem o Cinturão de Órion.</p>
+         </li>
+         <li>
+            <i class="fas fa-hourglass-start"></i>
+            <h4> Estrela mais brilhante </h4>
+            <p>Betelgeuse — é uma estrela colossal localizada a 700 anos-luz da Terra, com 12 vezes a massa do Sol.<br>
+               Betelgeuse é cotada para explodir em uma supernova a qualquer momento.<br>
+               Atualmente considerada um bomba relógio, é certeza que ela vai explodir e que não vai demorar muito, mas não há como fazer uma previsão exata de quando exatamente a supernova vai acontecer.<br>
+               Pode ser daqui a 100 mil anos ou na noite 
+               de hoje.</p>
+         </li>
+         <li>
+            <i class="fas fa-atlas"></i>
+            <h4> Órion na mitologia Grega </h4>
+            <p>Órion era um gigante caçador, filho de Netuno e favorito de Diana, com quem quase se casou.<br>
+               O irmão de Diana, Apolo, por sua vez, se aborrecia com tal aproximação entre os dois. <br>
+               Certo dia Apolo teve a oportunidade de se ver livre de seus aborrecimentos: 
+               percebendo que Órion vadeava pelo mar apenas com a cabeça fora d’água desafiou sua irmã, outra exímia caçadora, a acertar o alvo que distante se movia. <br>
+               Impecável em sua pontaria ela atingiu em cheio seu amado, cujo corpo foi conduzido à praia pelas ondas do mar.<br><b>... mais</b>
+            </p><p id='p2' style="display: none;">
+               Percebendo a fatalidade que havia cometido, Diana, em meio às lágrimas, colocou Órion entre as estrelas: o gigante trajado com um cinto, 
+               uma pele de leão, armado de uma espada e de sua clava, acompanhado 
+               por Sírius, seu cão e com as Plêiades fugindo do caçador.</p>
+         </li>
+      </ul>
+
    </section>
 </body>
 </html>

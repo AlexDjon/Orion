@@ -94,7 +94,8 @@ header li a {
    color: rgb(204, 204, 204);
    min-height: 100vh;
 }
-.infos .colors {
+.infos .colors,
+.historias .colors {
    width: 100%;
    height: 5px;
    border: 0;
@@ -150,7 +151,7 @@ header li a {
    flex-basis: 50%;
 }
 @media (max-width: 700px) {
-   .infos h3 { font-size: 2.2rem; }
+   .infos h3 { font-size: 2.2rem; padding: 0 25px; }
    .infos p { font-size: 1.2rem; text-align: left; max-width: 280px; }
    .infos .imagens { display: flex; }
    .infos .grid { margin-top: 10px; }
@@ -158,4 +159,86 @@ header li a {
    .infos .grid li.small { height: 300px; flex-basis: 90%; } 
    .infos .grid li.large { height: 200px; flex-basis: 90%; }
    .infos .separador {width: 280px;}
+}
+
+/*- Histórias -*/
+.historias {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   color: rgb(204, 204, 204);
+   padding: 0 5%;
+   min-height: 100vh;
+}
+.historias h3 {
+   color: rgb(240, 240, 240);
+   font-size: 2.8rem;
+   font-weight: 400;
+   margin: 50px 0 15px 0;
+   text-transform: uppercase;
+}
+.historias p {
+   font-size: 1.5rem;
+   text-align: center;
+   max-width: 900px;
+}
+.historias a {
+   color: #1EA29B;
+}
+.historias .grid {
+   width: 90%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin: 50px 0;
+}
+.historias .grid li {
+   width: 45%;
+   margin: 35px 0;
+   text-align: center;
+}
+.historias .grid li i {
+   color: #1EA29B;
+   font-size: 50px;
+   margin-bottom: 30px;
+}
+.historias .grid li h4 {
+   color: rgb(240, 240, 240);
+   font-size: 1.6rem;
+   margin-bottom: 30px;
+   font-weight: normal;
+   text-transform: uppercase;
+}
+.historias .grid li p {
+   color: #dddddd;
+   font-weight: 300;
+   font-size: 1.24rem;
+   text-align: left;
+   padding: 0 20px;
+   max-width: 560px;
+}
+.historias .grid li b {
+   font-weight: 300;
+   color: #1EA29B;
+   font-size: 1.25rem;
+   cursor: default;
+}
+@media (max-width: 700px) {
+   .historias h3 {
+      font-size: 1.8rem;
+   }
+   .historias p {
+      font-size: 1.24rem;
+      text-align: center;
+      max-width: 900px;
+   }
+   .historias .grid li {
+      width: 100%;
+      margin: 15px 0;
+   }
+   .historias .grid li p {
+      padding: 0 5px;
+   }
 }

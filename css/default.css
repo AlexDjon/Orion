@@ -17,6 +17,10 @@ a {
    cursor: pointer;
    opacity: 0.9;
 }
-a:hover {
+b {
+   opacity: 0.9;
+}
+a:hover,
+b:hover {
    opacity: 1;
 }
