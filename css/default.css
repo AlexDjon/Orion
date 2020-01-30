@@ -6,6 +6,8 @@
    box-sizing: border-box;
    font-family: 'Open Sans', sans-serif;
 }
+::-webkit-scrollbar {width: 8px; background-color: #151718;}
+::-webkit-scrollbar-thumb {background-color: #1EA29B;}
 html {
    scroll-behavior: smooth;
 }

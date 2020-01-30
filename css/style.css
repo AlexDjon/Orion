@@ -264,6 +264,12 @@ header li a {
    font-size: 1.25rem;
    cursor: pointer;
 }
+.historias .grid li i:hover,
+.historias .grid li i:focus {
+   font-size: 60px;
+   line-height: 50px;
+   color: #532395;
+}
 @media (max-width: 700px) {
    .historias h3 {
       font-size: 1.8rem;
