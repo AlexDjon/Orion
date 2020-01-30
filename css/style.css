@@ -39,6 +39,33 @@ header li a {
    }
 }
 
+/* GO TOP */
+.gotop {
+   display: none;
+   opacity: 0.9;
+   position: fixed;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: #5A25A4;
+   bottom: 60px;
+   right: 60px;
+   z-index: 999;
+   text-align: center;
+   cursor: pointer;
+}
+.gotop i {
+   font-size: 25px;
+   line-height: 50px;
+   color: #dfdfdf;
+}
+@media (max-width: 700px) {
+   .gotop {
+      bottom: 35px;
+      right: 28px;
+   }
+}
+
 /* HERO */
 .hero {
    background-image: url(../images/hero.jpg);
@@ -261,7 +288,7 @@ header li a {
    flex-flow: column wrap;
    align-items: center;
    justify-content: center;
-   margin: 0 5% 100px 5%;
+   margin: 40px 5% 120px 5%;
 }
 .autor img {
    width: 180px;
@@ -287,11 +314,14 @@ header li a {
    display: flex;
 }
 .autor nav li {
-   margin: 0 10px;
+   margin: 5px 10px;
 }
 .autor nav li i {
+   font-size: 30px;
    color: #1EA29B;
 }
-.autor nav li a {
-   color: #F0F0F0;
+@media (max-width: 700px) {
+   .autor {
+      margin-bottom: 70px;
+   }
 }
