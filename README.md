@@ -11,7 +11,7 @@
 <hr>
 
 ## Site para vizualização:
-- [Orion](https://alexdjon.github.io/Orion/)
+- [Orion](https://welcometoalex.space/orion/)
 - [Curso de Flexbox](https://www.youtube.com/playlist?list=PLwXQLZ3FdTVGjLmjwfRc0Q9TA5U-PCWp4)
 
 <hr>
